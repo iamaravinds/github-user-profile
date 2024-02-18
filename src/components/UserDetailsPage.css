@@ -1,0 +1,50 @@
+/* UserDetailsPage.css */
+.user-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-details-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+.user-info {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+.user-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.user-avatar {
+    width: 150px;
+}
+
+.user-username {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.user-details-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-details-label {
+    font-weight: bold;
+}
+
+.user-details-value {
+    flex: 1;
+    margin-left: 10px;
+}
+
